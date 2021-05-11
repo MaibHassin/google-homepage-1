@@ -1,2 +1,2 @@
 # google-homepage
-Google Homepage
+Clone a Google Homepage for practice.
