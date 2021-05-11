@@ -6,6 +6,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #222222;
+    font-size: 0.9rem;
 }
 
 a {
@@ -15,6 +16,10 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+#icons {
+    color: #56595c;
 }
 
 .main {
