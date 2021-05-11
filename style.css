@@ -9,6 +9,8 @@ body {
     font-size: 0.9rem;
 }
 
+/* style navbar */
+
 a {
     text-decoration: none;
     color: #222222;
@@ -21,6 +23,8 @@ a:hover {
 #icons {
     color: #56595c;
 }
+
+/* style main content */
 
 .main {
     display: flex;
