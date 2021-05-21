@@ -26,14 +26,23 @@ a:hover {
 
 /* style main content */
 
-.main {
+main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
-    align-content: center;
+    align-items: center;
 }
 
 #logo {
+    width: 272px;
+    height: 92px;
+}
+
+#search {
     
+}
+
+footer {
+    background-color:#f2f2f2
 }
