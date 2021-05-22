@@ -48,23 +48,27 @@ main {
 footer {
     background-color:#f2f2f2;
     font-size: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer1 {
     padding: 15px 30px;
 }
 
+.footer2 {
+    padding-top: 15px;
+}
+
 .footer2-1 {
     display: flex;
-    width: 30vw;
+    width: 29vw;
     justify-content: space-around;
 }
 
 .footer2-2 {
-    display: flex;
-    justify-content: flex-end;
+    position: absolute;
+    right: 0;
 }
 
-.sk {
-
-}
