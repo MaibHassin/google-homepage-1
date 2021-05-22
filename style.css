@@ -5,7 +5,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #222222;
+    /* color: #222222; */
     font-size: 0.9rem;
 }
 
@@ -49,11 +49,13 @@ main {
 }
 
 #logo {
-    width: 300px;
-    height: 100px;
+    width: 310px;
+    height: 105px;
     padding-top: 75px;
     padding-bottom: 20px;
 }
+
+/* style search bar in main */
 
 .searchbar {
     display: flex;
@@ -92,6 +94,12 @@ main {
 #search:hover {
     cursor: text;
 }
+
+#search:focus {
+    outline: none;
+}
+
+/* style buttons below searchbar */
 
 .buttons {
     padding: 20px;
@@ -142,6 +150,7 @@ footer {
 .footer1 {
     padding: 15px 30px;
     border-bottom: 1px solid #dadce0;
+    color: #70757a
 }
 
 .footer2 {
