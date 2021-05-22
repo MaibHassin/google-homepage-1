@@ -28,7 +28,7 @@ a {
     color: #222222;
 }
 
-a:hover {
+nav > a:hover, .korean-link:hover {
     text-decoration: underline;
 }
 
@@ -55,7 +55,49 @@ main {
 }
 
 #search {
-    
+    width: 500px;
+    height: 30px;
+}
+
+#search:hover {
+
+}
+
+.buttons {
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+}
+
+.buttons:hover {
+    text-decoration: none;
+}
+
+.button1, .button2 {
+    background-color: #f8f9fa;
+    text-decoration: none;
+    font-size: 14px;
+    color: #3c4043;
+    padding: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 5px;
+    margin-right: 10px;
+    /* box-sizing: border-box; */
+}
+
+.button1:hover, .button2:hover {
+    border: 1px solid #dadce0;
+    box-shadow: 
+}
+
+div > p {
+    font-size: 13px;
+}
+
+.korean-link {
+    color: #1a0dab;
 }
 
 /* style footer */
@@ -72,6 +114,7 @@ footer {
 
 .footer1 {
     padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
 }
 
 .footer2 {
