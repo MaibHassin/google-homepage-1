@@ -50,17 +50,38 @@ main {
 #logo {
     width: 300px;
     height: 100px;
-    padding-top: 80px;
+    padding-top: 75px;
     padding-bottom: 20px;
+}
+
+.searchbar {
+    display: flex;
+    border: 1px solid #cdd4db;
+    padding: 8px;
+    border-radius: 50px;
+}
+
+.search-icon {
+    color: #adb4bb;
+    padding-left: 14px;
+    padding-top: 4px;
+}
+
+.mic {
+    width: 30px;
+    height: 30px;
+    padding-right: 8px;
 }
 
 #search {
     width: 500px;
     height: 30px;
+    padding-left: 2px;
+    border: 0;
 }
 
 #search:hover {
-
+    cursor: text;
 }
 
 .buttons {
@@ -85,7 +106,7 @@ main {
 .button1:hover, .button2:hover {
     text-decoration: none;
     border: 1px solid #dadce0;
-    box-shadow: 0px 1px #dadce0;
+    box-shadow: 0px 1px 1px #dadce0;
 }
 
 div > p {
