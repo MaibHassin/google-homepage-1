@@ -43,6 +43,28 @@ main {
     
 }
 
+/* style footer */
+
 footer {
-    background-color:#f2f2f2
+    background-color:#f2f2f2;
+    font-size: 15px;
+}
+
+.footer1 {
+    padding: 15px 30px;
+}
+
+.footer2-1 {
+    display: flex;
+    width: 30vw;
+    justify-content: space-around;
+}
+
+.footer2-2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sk {
+
 }
