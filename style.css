@@ -11,6 +11,18 @@ body {
 
 /* style navbar */
 
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+nav > a {
+    padding: 8px;
+    padding-right: 15px;
+    font-size: 0.8rem;
+}
+
 a {
     text-decoration: none;
     color: #222222;
@@ -22,6 +34,7 @@ a:hover {
 
 #icons {
     color: #56595c;
+    padding-top: 4px;
 }
 
 /* style main content */
@@ -35,8 +48,10 @@ main {
 }
 
 #logo {
-    width: 272px;
-    height: 92px;
+    width: 300px;
+    height: 100px;
+    padding-top: 80px;
+    padding-bottom: 20px;
 }
 
 #search {
@@ -47,10 +62,12 @@ main {
 
 footer {
     background-color:#f2f2f2;
-    font-size: 15px;
+    color: #70757a;
+    font-size: 14px;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    padding-bottom: 15px;
+    width: 100vw;
 }
 
 .footer1 {
@@ -59,6 +76,7 @@ footer {
 
 .footer2 {
     padding-top: 15px;
+    padding-left: 15px;
 }
 
 .footer2-1 {
@@ -69,6 +87,7 @@ footer {
 
 .footer2-2 {
     position: absolute;
-    right: 0;
+    right: 15px;
 }
+
 
