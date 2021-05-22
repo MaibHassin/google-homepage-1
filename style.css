@@ -67,11 +67,6 @@ main {
     padding: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
-    box-sizing: border-box;
-}
-
-.buttons:hover {
-    text-decoration: none;
 }
 
 .button1, .button2 {
@@ -84,12 +79,13 @@ main {
     padding-right: 16px;
     border-radius: 5px;
     margin-right: 10px;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 .button1:hover, .button2:hover {
+    text-decoration: none;
     border: 1px solid #dadce0;
-    box-shadow: 
+    box-shadow: 0px 1px #dadce0;
 }
 
 div > p {
