@@ -182,9 +182,3 @@ footer {
 .footer-spacing {
     padding-right: 25px;
 }
-
-/* add media queries and make site responsive */
-
-@media screen and (min-width:320px) {
-
-}
